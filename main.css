@@ -11,13 +11,13 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  height:100px;
+
 }
 
-.topnav h1
+#main_header
 {
 	float:left;
-	display:block;
+	display:inline-block;
 	color:white;
 	text-align:center;
 	padding-left:2%;
