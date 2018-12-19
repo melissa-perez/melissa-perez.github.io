@@ -70,8 +70,8 @@ body {
   .topnav.responsive {position: relative;}
   .topnav.responsive ul a.icon {
    position: absolute;
-  top: 50%;
-  left: 50%;
+   top: calc(50vh - (/* height */100px / 2));
+    left: calc(50vw - (/* width */140px / 2)); 
   }
   .topnav.responsive ul a {
     float: none;
