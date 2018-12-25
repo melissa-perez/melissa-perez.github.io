@@ -10,9 +10,7 @@ body {
 /* Style the main header: name*/
 #main_header
 {
-
 	letter-spacing:5px;
-
 }
 
 /* Style the top navigation bar */
@@ -55,7 +53,8 @@ body {
 }
 
  /* When the screen is less than 800 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px)
+{
   .topnav  div a {display: none;}
   .topnav a.icon_close{display: none;}
   .topnav a.icon {
@@ -65,7 +64,8 @@ body {
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px)
+ {
   
    .topnav.responsive a.icon
    {
@@ -83,11 +83,14 @@ body {
   }
 } 
 
+
 .hero-image {
-  background: url(echo_park.jpg) no-repeat center; 
-  background-size: cover;
-  height: 500px;
-  position: relative;
+	
+		min-height: 450px;
+        width: 100%;
+		background: url('echo_park.jpg') no-repeat center;
+		background-size:cover;
+     
 }
 
 .hero-text
@@ -100,7 +103,7 @@ body {
 	
 }
 
-.hero-text p
+/*.hero-text p
 {
 	background-color: #ffffff;
 	font-weight: bold;
@@ -116,7 +119,8 @@ body {
 	height:400px;
 	width:600px;
 	
-}
+}*/
+
 
 
 div.gallery {
