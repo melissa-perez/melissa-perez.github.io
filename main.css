@@ -19,7 +19,11 @@ body {
 .topnav 
 {
   overflow: hidden;
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: #333;
+>>>>>>> 9c6a519a2efa1edb990bb9be000d58d9af3651e1
   position:fixed;
   top:0;
   left:0;
