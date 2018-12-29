@@ -101,25 +101,13 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
-}
+	z-index:1;
 
-.hero-text p
-{
-	background-color: white;
 	font-weight: bold;
-	color: #000000;
+	color: white;
 	opacity: 0.8;
 	filter: alpha(opacity=80);
-	border: 2px black solid;
-	width:60%;
-	height:500px;
-	text-align: center;
-	position:relative;
-	top:0;
-	left:20%;
 	margin-top:2%;
-
 }
 
 
@@ -158,4 +146,24 @@ footer p{
   padding: 10px;
   float:clear;
   zoom:1;
+}
+
+section
+{
+	border: 1px black solid;
+	z-index:1;
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	padding:2%;
+	z-index:1;
+	text-align: center;	
+	
+}
+section p
+{
+	
+	
 }
