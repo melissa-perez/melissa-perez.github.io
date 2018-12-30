@@ -85,11 +85,20 @@ body {
 } 
 
 
-.hero-image {
+.hero-image1 {
 	
 		min-height: 500px;
         width: 100%;
 		background: url('echo_park.jpg') no-repeat center;
+		background-size:cover;
+     
+}
+
+.hero-image2 {
+	
+		min-height: 500px;
+        width: 100%;
+		background: url('hands.png') no-repeat center;
 		background-size:cover;
      
 }
