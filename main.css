@@ -89,7 +89,7 @@ body {
 	
 		min-height: 500px;
         width: 100%;
-		background: url('echo_park.jpg') no-repeat center;
+		background: url('los_angeles.jpg') no-repeat center;
 		background-size:cover;
      
 }
@@ -111,11 +111,22 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index:1;
+	font-weight: bold;
+	color: white;
+	margin-top:2%;
+}
+
+.hero-text2
+{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index:1;
 
 	font-weight: bold;
 	color: white;
-	opacity: 0.8;
-	filter: alpha(opacity=80);
 	margin-top:2%;
 }
 
