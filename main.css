@@ -168,10 +168,24 @@ footer p{
   zoom:1;
 }
 
-section
+.sec1
 {
-	border: 1px black solid;
 	z-index:1;
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	padding:2%;
+	z-index:1;
+	text-align: center;	
+	
+}
+
+
+.sec2
+{
+	border:none;
 	margin-top:2%;
 	margin-bottom:2%;
 	margin-left:auto;
@@ -185,7 +199,7 @@ section
 footer
 {
 	
-	border: 1px black solid;
+	
 	z-index:1;
 	margin-top:2%;
 	margin-bottom:2%;
@@ -195,4 +209,6 @@ footer
 	padding:2%;
 	z-index:1;
 	text-align: center;	
+	clear:both;
+	zoom:1;
 }
