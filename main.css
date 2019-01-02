@@ -36,7 +36,7 @@ body {
 }
 
 /* Change color on hover */
-.topnav a:not(:first-child):hover
+.topnav div a:hover
  {
   background-color: dodgerblue;
   color: white;
